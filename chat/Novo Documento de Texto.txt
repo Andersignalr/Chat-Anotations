@@ -1,0 +1,36 @@
+!!!!@@@@####$$$$%%%%
+
+$$ Componente $$
+
+## Nav ##
+Uma área superior que contém links úteis
+
+!! Funcionalidade !!
+Chat: Direciona o usuário para a página do chat ao ser clicado href="/chat"
+Login: Direciona o usuário para a página de login ao ser clicado href="/login"
+Logout: Desloga o usuário tanto do cliente quanto do local storage
+
+!! estilo !!
+Possui hover uma barra inferior que começa na esquerda quando o mouse passa
+por cima, se mantêm uma barra enquanto o mouse tiver encima
+e termina na direita quando o mouse sai
+
+Se mantém por cima e tem posição fixa para não influenciar a centralidade dos
+demais componentes.
+
+%% Observações %%
+quando o usuário está logado, aparece "Logout", opção que desloga o usuário
+tanto do objeto usuário quanto do Local Storage do navegador.
+quando o usuário está deslogado, aparece "Login".
+
+
+
+$$ Componente $$
+
+## profile-area ##
+área que exibe o perfil resumido do usuário logado atualmente, imagem e nome.
+
+!! Funcionalidade !!
+
+!! estilo !!
+
